@@ -1,0 +1,61 @@
+ReactJs 
+
+SPA 
+
+public/index.html
+
+npm start
+			->  react-scripts start
+						-> src/index.js
+										Webpack Assets(HTML,CSS,JS,img) Builder
+														Launch Port 3000
+What is compoent ?
+
+* A compoent is a basic building block of react Application
+* A compoent is js file
+* A component can be created with functions and classes
+
+
+Types Of Compoenet
+1. React Functional Compoent RFC
+2. React Class Component     RCC
+
+
+A component can have its data
+
+Every component can have its data
+
+<h1>OKLABS</h1>
+
+Where can be a component data ?
+1. Inside Component  ANIL
+2. Outside Component as props  DOLLOR
+
+
+{} = Expression Evaluator
+
+{You can write any JS Expression here.}
+
+let name='anil';
+{name}
+
+<starttag attriubute="value"></endtag>
+
+<h1 class="a1"></h1>
+
+ReactJs
+
+<h1 surname="DOLLOR"></h1>
+
+props = Properties
+
+
+//1. Function defination
+function A(FormalArgument){
+
+}
+//2. FUnction calling
+
+A(ActualArgument);
+
+

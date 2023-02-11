@@ -1,23 +1,22 @@
+//1. Import Area
 import logo from './logo.svg';
 import './App.css';
+
+//1. import { SomeNamedImport } from somelocation/somelibrary;
+import { BComp2 } from './components/BComp2';
+
+//2. import someDefaultImport from somelocation/somelibrary
+import AComp1 from './components/AComp1';
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <AComp1 surname="DOLLOR" />
+        <AComp1 surname="Sharma" />
+        <BComp2 surname="RATHOR" />
     </div>
   );
 }
